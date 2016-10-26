@@ -514,6 +514,19 @@ if [ "$Audit4_6" = "1" ]; then
 	fi
 fi
 
+# 5.1.1 Secure Home Folders
+# Verify organizational score
+Audit5_1_1="`defaults read "$plistlocation" OrgScore5_1_1`"
+# If organizational score is 1 or true, check status of client
+if [ "$Audit5_1_1" = "1" ]; then
+	homeFolders=`find /Users -mindepth 1 -maxdepth 1 -type d -perm -1 | grep -v "Shared" | grep -v "Guest" | wc -l | xargs`
+	# If client fails, then note category in audit file
+	if [ "$homeFolders" = "0" ]; then
+		echo "5.1.1 passed"; else
+		echo "* 5.1.1 Secure Home Folders" >> "$auditfilelocation"
+	fi
+fi
+
 # 5.1.2 Check System Wide Applications for appropriate permissions
 # Verify organizational score
 Audit5_1_2="`defaults read "$plistlocation" OrgScore5_1_2`"
