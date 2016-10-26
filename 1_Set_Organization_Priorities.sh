@@ -40,8 +40,8 @@
 
 dir="/Library/Application Support/SecurityScoring"
 
-if [[ ! -e $dir ]]; then
-    mkdir $dir
+if [[ ! -e "$dir" ]]; then
+    mkdir "$dir"
 fi
 plistlocation="$dir/org_security_score.plist"
 
@@ -186,6 +186,10 @@ OrgScore4_5="true"
 OrgScore4_6="true"
 # OrgScore4_6="false"
 
+# 5.1.1 Secure Home Folders
+OrgScore5_1_1="true"
+# OrgScore5_1_1="false"
+
 # 5.1.2 Check System Wide Applications for appropriate permissions
 OrgScore5_1_2="true"
 # OrgScore5_1_2="false"
@@ -318,6 +322,8 @@ echo "<key>OrgScore4_5</key>" >> "$plistlocation"
 echo "<$OrgScore4_5/>" >> "$plistlocation"
 echo "<key>OrgScore4_6</key>" >> "$plistlocation"
 echo "<$OrgScore4_6/>" >> "$plistlocation"
+echo "<key>OrgScore5_1_1</key>" >> "$plistlocation"
+echo "<$OrgScore5_1_1/>" >> "$plistlocation"
 echo "<key>OrgScore5_1_2</key>" >> "$plistlocation"
 echo "<$OrgScore5_1_2/>" >> "$plistlocation"
 echo "<key>OrgScore5_1_3</key>" >> "$plistlocation"

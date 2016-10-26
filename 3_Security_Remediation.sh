@@ -556,6 +556,17 @@ if [ -e /etc/exports  ]; then
 fi
 fi
 
+# 5.1.1 Secure Home Folders
+# Verify organizational score
+Audit5_1_1="`defaults read "$plistlocation" OrgScore5_1_1`"
+# If organizational score is 1 or true, check status of client
+if [ "$Audit5_1_1" = "1" ]; then
+# If client fails, then remediate
+	for userDirs in $( find /Users -mindepth 1 -maxdepth 1 -type d -perm -1 | grep -v "Shared" | grep -v "Guest" ); do
+		chmod -R og-rwx $userDirs
+	done
+fi
+
 # 5.1.2 Check System Wide Applications for appropriate permissions
 # Verify organizational score
 Audit5_1_2="`defaults read "$plistlocation" OrgScore5_1_2`"
@@ -707,7 +718,7 @@ if [ "$Audit6_2" = "1" ]; then
 filenameExt=`defaults read /Users/$currentUser/Library/Preferences/com.apple.finder AppleShowAllExtensions`
 if [ "$filenameExt" = "1" ]; then
 	echo "6.2 passed"; else
-	defaults write /Users/$currentUser/Library/Preferences/com.apple.finder AppleShowAllExtensions -bool true
+	defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 fi
 fi
 
