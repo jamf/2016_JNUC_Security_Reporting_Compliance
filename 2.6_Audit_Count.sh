@@ -3,4 +3,5 @@
 # Security Reporting - Count Risks
 
 auditfile=/Library/Application\ Support/SecurityScoring/org_audit
-echo "<result>`cat \"$auditfile\" | grep "*" | wc -l`</result>"
+reportcount=$(cat "$auditfile" | grep "*" | wc -l | tr -d '[:space:]')
+echo "<result>$(cat "$auditfile" | grep "*" | wc -l | tr -d '[:space:]')</result>"
