@@ -127,7 +127,7 @@ if [ "$Audit2_1_1" = "1" ]; then
 	# If client fails, then note category in audit file
 	if [ $btPowerState = "0" ]; then
 		echo "2.1.1 passed"; else
-		connectable=$(system_profiler SPBluetoothDataType | grep "Bluetooth:" -A 20 | grep Connectable | awk '{print $2}' )
+		connectable=$(system_profiler SPBluetoothDataType | grep Connectable | awk '{print $2}' | head -1 )
 		if [ "$connectable" = "Yes" ]; then
 			echo "2.1.1 passed"; else
 			echo "* 2.1.1 Turn off Bluetooth, if no paired devices exist" >> "$auditfilelocation"
