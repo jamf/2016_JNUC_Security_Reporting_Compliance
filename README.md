@@ -30,7 +30,7 @@ Reads contents of /Library/Application Support/SecurityScoring/org_audit file an
 
 # 2.6_Audit_Count Extension Attribute
 
-Set as Data Type "Integer." 
+Set as Data Type "Integer."
 
 Reads contents of /Library/Application Support/SecurityScoring/org_audit file and records count of items to Jamf Pro inventory record. Usable with smart group logic (2.6_Audit_Count greater than 0) to immediately determine computers not in compliance.
 

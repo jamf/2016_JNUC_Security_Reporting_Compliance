@@ -54,127 +54,127 @@ plistlocation="$dir/org_security_score.plist"
 # OrgScore1_1="true"
 OrgScore1_1="false"
 
-# 1.2 Enable Auto Update 
+# 1.2 Enable Auto Update
 OrgScore1_2="true"
 # OrgScore1_2="false"
 
-# 1.3 Enable app update installs 
+# 1.3 Enable app update installs
 OrgScore1_3="true"
 # OrgScore1_3="false"
 
-# 1.4 Enable system data files and security update installs 
+# 1.4 Enable system data files and security update installs
 OrgScore1_4="true"
 # OrgScore1_4="false"
 
-# 1.5 Enable OS X update installs 
+# 1.5 Enable OS X update installs
 OrgScore1_5="true"
 # OrgScore1_5="false"
 
-# 2.1.1 Turn off Bluetooth, if no paired devices exist 
+# 2.1.1 Turn off Bluetooth, if no paired devices exist
 OrgScore2_1_1="true"
 # OrgScore2_1_1="false"
 
-# 2.1.3 Show Bluetooth status in menu bar 
+# 2.1.3 Show Bluetooth status in menu bar
 OrgScore2_1_3="true"
 # OrgScore2_1_3="false"
 
-# 2.2.2 Ensure time set is within appropriate limits 
+# 2.2.2 Ensure time set is within appropriate limits
 OrgScore2_2_2="true"
 # OrgScore2_2_2="false"
 
-# 2.3.1 Set an inactivity interval of 20 minutes or less for the screen saver 
+# 2.3.1 Set an inactivity interval of 20 minutes or less for the screen saver
 OrgScore2_3_1="true"
 # OrgScore2_3_1="false"
 
-# 2.3.2 Secure screen saver corners 
+# 2.3.2 Secure screen saver corners
 OrgScore2_3_2="true"
 # OrgScore2_3_2="false"
 
-# 2.3.4 Set a screen corner to Start Screen Saver 
+# 2.3.4 Set a screen corner to Start Screen Saver
 OrgScore2_3_4="true"
 # OrgScore2_3_4="false"
 
-# 2.4.1 Disable Remote Apple Events 
+# 2.4.1 Disable Remote Apple Events
 OrgScore2_4_1="true"
 # OrgScore2_4_1="false"
 
-# 2.4.2 Disable Internet Sharing 
+# 2.4.2 Disable Internet Sharing
 OrgScore2_4_2="true"
 # OrgScore2_4_2="false"
 
-# 2.4.3 Disable Screen Sharing 
+# 2.4.3 Disable Screen Sharing
 OrgScore2_4_3="true"
 # OrgScore2_4_3="false"
 
-# 2.4.5 Disable Remote Login 
+# 2.4.5 Disable Remote Login
 OrgScore2_4_5="true"
 # OrgScore2_4_5="false"
 
-# 2.4.7 Disable Bluetooth Sharing 
+# 2.4.7 Disable Bluetooth Sharing
 OrgScore2_4_7="true"
 # OrgScore2_4_7="false"
 
-# 2.4.8 Disable File Sharing 
+# 2.4.8 Disable File Sharing
 OrgScore2_4_8="true"
 # OrgScore2_4_8="false"
 
-# 2.4.9 Disable Remote Management 
+# 2.4.9 Disable Remote Management
 OrgScore2_4_9="true"
 # OrgScore2_4_9="false"
 
-# 2.5.1 Disable "Wake for network access" 
+# 2.5.1 Disable "Wake for network access"
 OrgScore2_5_1="true"
 # OrgScore2_5_1="false"
 
-# 2.5.2 Disable sleeping the computer when connected to power 
+# 2.5.2 Disable sleeping the computer when connected to power
 OrgScore2_5_2="true"
 # OrgScore2_5_2="false"
 
-# 2.6.3 Enable Firewall 
+# 2.6.3 Enable Firewall
 OrgScore2_6_3="true"
 # OrgScore2_6_3="false"
 
-# 2.6.4 Enable Firewall Stealth Mode 
+# 2.6.4 Enable Firewall Stealth Mode
 OrgScore2_6_4="true"
 # OrgScore2_6_4="false"
 
-# 2.6.5 Review Application Firewall Rules 
+# 2.6.5 Review Application Firewall Rules
 OrgScore2_6_5="true"
 # OrgScore2_6_5="false"
 
-# 2.8 Pair the remote control infrared receiver if enabled 
+# 2.8 Pair the remote control infrared receiver if enabled
 OrgScore2_8="true"
 # OrgScore2_8="false"
 
-# 2.9 Enable Secure Keyboard Entry in terminal.app 
+# 2.9 Enable Secure Keyboard Entry in terminal.app
 OrgScore2_9="true"
 # OrgScore2_9="false"
 
-# 2.10 Java 6 is not the default Java runtime 
+# 2.10 Java 6 is not the default Java runtime
 OrgScore2_10="true"
 # OrgScore2_10="false"
 
-# 3.1.1 Retain system.log for 90 or more days 
+# 3.1.1 Retain system.log for 90 or more days
 OrgScore3_1_1="true"
 # OrgScore3_1_1="false"
 
-# 3.1.3 Retain authd.log for 90 or more days 
+# 3.1.3 Retain authd.log for 90 or more days
 OrgScore3_1_3="true"
 # OrgScore3_1_3="false"
 
-# 3.5 Retain install.log for 365 or more days 
+# 3.5 Retain install.log for 365 or more days
 OrgScore3_5="true"
 # OrgScore3_5="false"
 
-# 4.1 Disable Bonjour advertising service 
+# 4.1 Disable Bonjour advertising service
 OrgScore4_1="true"
 # OrgScore4_1="false"
 
-# 4.2 Enable "Show Wi-Fi status in menu bar" 
+# 4.2 Enable "Show Wi-Fi status in menu bar"
 OrgScore4_2="true"
 # OrgScore4_2="false"
 
-# 4.4 Ensure http server is not running 
+# 4.4 Ensure http server is not running
 OrgScore4_4="true"
 # OrgScore4_4="false"
 
