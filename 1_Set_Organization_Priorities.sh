@@ -250,105 +250,57 @@ OrgScore6_3="true"
 ##################################################################
 # Write org_security_score values to local plist
 
-echo "<?xml version="1.0" encoding="UTF-8"?>" > "$plistlocation"
-echo "<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">" >> "$plistlocation"
-echo "<plist version="1.0">" >> "$plistlocation"
-echo "<dict>" >> "$plistlocation"
-echo "<key>OrgScore1_1</key>" >> "$plistlocation"
-echo "<$OrgScore1_1/>" >> "$plistlocation"
-echo "<key>OrgScore1_2</key>" >> "$plistlocation"
-echo "<$OrgScore1_2/>" >> "$plistlocation"
-echo "<key>OrgScore1_3</key>" >> "$plistlocation"
-echo "<$OrgScore1_3/>" >> "$plistlocation"
-echo "<key>OrgScore1_4</key>" >> "$plistlocation"
-echo "<$OrgScore1_4/>" >> "$plistlocation"
-echo "<key>OrgScore1_5</key>" >> "$plistlocation"
-echo "<$OrgScore1_5/>" >> "$plistlocation"
-echo "<key>OrgScore2_1_1</key>" >> "$plistlocation"
-echo "<$OrgScore2_1_1/>" >> "$plistlocation"
-echo "<key>OrgScore2_1_3</key>" >> "$plistlocation"
-echo "<$OrgScore2_1_3/>" >> "$plistlocation"
-echo "<key>OrgScore2_2_2</key>" >> "$plistlocation"
-echo "<$OrgScore2_2_2/>" >> "$plistlocation"
-echo "<key>OrgScore2_3_1</key>" >> "$plistlocation"
-echo "<$OrgScore2_3_1/>" >> "$plistlocation"
-echo "<key>OrgScore2_3_2</key>" >> "$plistlocation"
-echo "<$OrgScore2_3_2/>" >> "$plistlocation"
-echo "<key>OrgScore2_3_4</key>" >> "$plistlocation"
-echo "<$OrgScore2_3_4/>" >> "$plistlocation"
-echo "<key>OrgScore2_4_1</key>" >> "$plistlocation"
-echo "<$OrgScore2_4_1/>" >> "$plistlocation"
-echo "<key>OrgScore2_4_2</key>" >> "$plistlocation"
-echo "<$OrgScore2_4_2/>" >> "$plistlocation"
-echo "<key>OrgScore2_4_3</key>" >> "$plistlocation"
-echo "<$OrgScore2_4_3/>" >> "$plistlocation"
-echo "<key>OrgScore2_4_5</key>" >> "$plistlocation"
-echo "<$OrgScore2_4_5/>" >> "$plistlocation"
-echo "<key>OrgScore2_4_7</key>" >> "$plistlocation"
-echo "<$OrgScore2_4_7/>" >> "$plistlocation"
-echo "<key>OrgScore2_4_8</key>" >> "$plistlocation"
-echo "<$OrgScore2_4_8/>" >> "$plistlocation"
-echo "<key>OrgScore2_4_9</key>" >> "$plistlocation"
-echo "<$OrgScore2_4_9/>" >> "$plistlocation"
-echo "<key>OrgScore2_5_1</key>" >> "$plistlocation"
-echo "<$OrgScore2_5_1/>" >> "$plistlocation"
-echo "<key>OrgScore2_5_2</key>" >> "$plistlocation"
-echo "<$OrgScore2_5_2/>" >> "$plistlocation"
-echo "<key>OrgScore2_6_3</key>" >> "$plistlocation"
-echo "<$OrgScore2_6_3/>" >> "$plistlocation"
-echo "<key>OrgScore2_6_4</key>" >> "$plistlocation"
-echo "<$OrgScore2_6_4/>" >> "$plistlocation"
-echo "<key>OrgScore2_6_5</key>" >> "$plistlocation"
-echo "<$OrgScore2_6_5/>" >> "$plistlocation"
-echo "<key>OrgScore2_8</key>" >> "$plistlocation"
-echo "<$OrgScore2_8/>" >> "$plistlocation"
-echo "<key>OrgScore2_9</key>" >> "$plistlocation"
-echo "<$OrgScore2_9/>" >> "$plistlocation"
-echo "<key>OrgScore2_10</key>" >> "$plistlocation"
-echo "<$OrgScore2_10/>" >> "$plistlocation"
-echo "<key>OrgScore3_1_1</key>" >> "$plistlocation"
-echo "<$OrgScore3_1_1/>" >> "$plistlocation"
-echo "<key>OrgScore3_1_3</key>" >> "$plistlocation"
-echo "<$OrgScore3_1_3/>" >> "$plistlocation"
-echo "<key>OrgScore3_5</key>" >> "$plistlocation"
-echo "<$OrgScore3_5/>" >> "$plistlocation"
-echo "<key>OrgScore4_1</key>" >> "$plistlocation"
-echo "<$OrgScore4_1/>" >> "$plistlocation"
-echo "<key>OrgScore4_2</key>" >> "$plistlocation"
-echo "<$OrgScore4_2/>" >> "$plistlocation"
-echo "<key>OrgScore4_4</key>" >> "$plistlocation"
-echo "<$OrgScore4_4/>" >> "$plistlocation"
-echo "<key>OrgScore4_5</key>" >> "$plistlocation"
-echo "<$OrgScore4_5/>" >> "$plistlocation"
-echo "<key>OrgScore4_6</key>" >> "$plistlocation"
-echo "<$OrgScore4_6/>" >> "$plistlocation"
-echo "<key>OrgScore5_1_1</key>" >> "$plistlocation"
-echo "<$OrgScore5_1_1/>" >> "$plistlocation"
-echo "<key>OrgScore5_1_2</key>" >> "$plistlocation"
-echo "<$OrgScore5_1_2/>" >> "$plistlocation"
-echo "<key>OrgScore5_1_3</key>" >> "$plistlocation"
-echo "<$OrgScore5_1_3/>" >> "$plistlocation"
-echo "<key>OrgScore5_1_4</key>" >> "$plistlocation"
-echo "<$OrgScore5_1_4/>" >> "$plistlocation"
-echo "<key>OrgScore5_3</key>" >> "$plistlocation"
-echo "<$OrgScore5_3/>" >> "$plistlocation"
-echo "<key>OrgScore5_4</key>" >> "$plistlocation"
-echo "<$OrgScore5_4/>" >> "$plistlocation"
-echo "<key>OrgScore5_7</key>" >> "$plistlocation"
-echo "<$OrgScore5_7/>" >> "$plistlocation"
-echo "<key>OrgScore5_8</key>" >> "$plistlocation"
-echo "<$OrgScore5_8/>" >> "$plistlocation"
-echo "<key>OrgScore5_9</key>" >> "$plistlocation"
-echo "<$OrgScore5_9/>" >> "$plistlocation"
-echo "<key>OrgScore5_10</key>" >> "$plistlocation"
-echo "<$OrgScore5_10/>" >> "$plistlocation"
-echo "<key>OrgScore5_18</key>" >> "$plistlocation"
-echo "<$OrgScore5_18/>" >> "$plistlocation"
-echo "<key>OrgScore6_1_4</key>" >> "$plistlocation"
-echo "<$OrgScore6_1_4/>" >> "$plistlocation"
-echo "<key>OrgScore6_2</key>" >> "$plistlocation"
-echo "<$OrgScore6_2/>" >> "$plistlocation"
-echo "<key>OrgScore6_3</key>" >> "$plistlocation"
-echo "<$OrgScore6_3/>" >> "$plistlocation"
-echo "</dict>" >> "$plistlocation"
-echo "</plist>" >> "$plistlocation"
+echo "<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>OrgScore2_9</key>" 
+		<${OrgScore2_9}/>
+		<key>OrgScore2_10</key>
+		<${OrgScore2_10}/>
+		<key>OrgScore3_1_1</key>
+		<${OrgScore3_1_1}/>
+		<key>OrgScore3_1_3</key>
+		<${OrgScore3_1_3}/>
+		<key>OrgScore3_5</key>
+		<${OrgScore3_5}/>
+		<key>OrgScore4_1</key>
+		<${OrgScore4_1}/>
+		<key>OrgScore4_2</key>
+		<${OrgScore4_2}/>
+		<key>OrgScore4_4</key>
+		<${OrgScore4_4}/>
+		<key>OrgScore4_5</key>
+		<${OrgScore4_5}/>
+		<key>OrgScore4_6</key>
+		<${OrgScore4_6}/>
+		<key>OrgScore5_1_1</key>
+		<${OrgScore5_1_1}/>
+		<key>OrgScore5_1_2</key>
+		<${OrgScore5_1_2}/>
+		<key>OrgScore5_1_3</key>
+		<${OrgScore5_1_3}/>
+		<key>OrgScore5_1_4</key>
+		<${OrgScore5_1_4}/>
+		<key>OrgScore5_3</key>
+		<${OrgScore5_3}/>
+		<key>OrgScore5_4</key>
+		<${OrgScore5_4}/>
+		<key>OrgScore5_7</key>
+		<${OrgScore5_7}/>
+		<key>OrgScore5_8</key>
+		<${OrgScore5_8}/>
+		<key>OrgScore5_9</key>
+		<${OrgScore5_9}/>
+		<key>OrgScore5_10</key>
+		<${OrgScore5_10}/>
+		<key>OrgScore5_18</key>
+		<${OrgScore5_18}/>
+		<key>OrgScore6_1_4</key>
+		<${OrgScore6_1_4}/>
+		<key>OrgScore6_2</key>
+		<${OrgScore6_2}/>
+		<key>OrgScore6_3</key>
+		<${OrgScore6_3}/>
+	</dict>
+</plist>" > "$plistlocation
