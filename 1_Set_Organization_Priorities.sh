@@ -254,7 +254,7 @@ echo "<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>OrgScore2_9</key>" 
+		<key>OrgScore2_9</key>
 		<${OrgScore2_9}/>
 		<key>OrgScore2_10</key>
 		<${OrgScore2_10}/>
@@ -303,4 +303,4 @@ echo "<?xml version="1.0" encoding="UTF-8"?>
 		<key>OrgScore6_3</key>
 		<${OrgScore6_3}/>
 	</dict>
-</plist>" > "$plistlocation
+</plist>" > "$plistlocation"
