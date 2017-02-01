@@ -499,7 +499,7 @@ Audit4_1="`defaults read "$plistlocation" OrgScore4_1`"
 if [ "$Audit4_1" = "1" ]; then
 bonjourAdvertise=`defaults read /Library/Preferences/com.apple.alf globalstate`
 if [ "$bonjourAdvertise" = "0" ]; then
-	defaults read /Library/Preferences/com.apple.alf globalstate -int 1; else
+	defaults write /Library/Preferences/com.apple.alf globalstate -int 1; else
 	echo "4.1 passed"
 fi
 fi
