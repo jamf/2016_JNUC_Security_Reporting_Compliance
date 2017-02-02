@@ -250,10 +250,58 @@ OrgScore6_3="true"
 ##################################################################
 # Write org_security_score values to local plist
 
-echo "<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
 	<dict>
+		<key>OrgScore1_1</key>
+		<${OrgScore1_1}/>
+		<key>OrgScore1_2</key>
+		<${OrgScore1_2}/>
+		<key>OrgScore1_3</key>
+		<${OrgScore1_3}/>
+		<key>OrgScore1_4</key>
+		<${OrgScore1_4}/>
+		<key>OrgScore1_5</key>
+		<${OrgScore1_5}/>
+		<key>OrgScore2_1_1</key>
+		<${OrgScore2_1_1}/>
+		<key>OrgScore2_1_3</key>
+		<${OrgScore2_1_3}/>
+		<key>OrgScore2_2_2</key>
+		<${OrgScore2_2_2}/>
+		<key>OrgScore2_3_1</key>
+		<${OrgScore2_3_1}/>
+		<key>OrgScore2_3_2</key>
+		<${OrgScore2_3_2}/>
+		<key>OrgScore2_3_4</key>
+		<${OrgScore2_3_4}/>
+		<key>OrgScore2_4_1</key>
+		<${OrgScore2_4_1}/>
+		<key>OrgScore2_4_2</key>
+		<${OrgScore2_4_2}/>
+		<key>OrgScore2_4_3</key>
+		<${OrgScore2_4_3}/>
+		<key>OrgScore2_4_5</key>
+		<${OrgScore2_4_5}/>
+		<key>OrgScore2_4_7</key>
+		<${OrgScore2_4_7}/>
+		<key>OrgScore2_4_8</key>
+		<${OrgScore2_4_8}/>
+		<key>OrgScore2_4_9</key>
+		<${OrgScore2_4_9}/>
+		<key>OrgScore2_5_1</key>
+		<${OrgScore2_5_1}/>
+		<key>OrgScore2_5_2</key>
+		<${OrgScore2_5_2}/>
+		<key>OrgScore2_6_3</key>
+		<${OrgScore2_6_3}/>
+		<key>OrgScore2_6_4</key>
+		<${OrgScore2_6_4}/>
+		<key>OrgScore2_6_5</key>
+		<${OrgScore2_6_5}/>
+		<key>OrgScore2_8</key>
+		<${OrgScore2_8}/>
 		<key>OrgScore2_9</key>
 		<${OrgScore2_9}/>
 		<key>OrgScore2_10</key>
