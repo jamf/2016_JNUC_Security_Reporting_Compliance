@@ -45,7 +45,7 @@ if [[ ! -e $plistlocation ]]; then
 fi
 
 # Cleanup audit file to start fresh
-rm "$auditfilelocation"
+[ -f $auditfilelocation ] && rm "$auditfilelocation"
 touch "$auditfilelocation"
 
 # Other variables
